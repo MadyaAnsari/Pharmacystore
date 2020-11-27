@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "875898495964",
+    "firebase_url": "https://pharmacystore-9aefd.firebaseio.com",
+    "project_id": "pharmacystore-9aefd",
+    "storage_bucket": "pharmacystore-9aefd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875898495964:android:13b5f10e36d243f60c6519",
+        "android_client_info": {
+          "package_name": "com.example.pharmacystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875898495964-8pvusq7u0s4ns884cemm6j4vs1ojeltl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pharmacystore",
+            "certificate_hash": "f753448a3a43287e3cd88d50967505bed11cd7ed"
+          }
+        },
+        {
+          "client_id": "875898495964-dl82letromj4iaa9k72e8sqgco22rdn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiYtgeX1hZoQ0KeT1Zfo0gbG2pNYpoKqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875898495964-dl82letromj4iaa9k72e8sqgco22rdn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
