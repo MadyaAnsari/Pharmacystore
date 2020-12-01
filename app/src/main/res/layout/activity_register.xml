@@ -20,8 +20,8 @@
             android:layout_marginTop="50dp"
             android:text="Register"
             android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="45sp"
+            android:textColor="#904D9A"
+            android:textSize="47sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -143,12 +143,12 @@
         <CheckBox
             android:id="@+id/checkBox2"
             android:layout_width="300dp"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="700dp"
             android:text="Notify Me for discounts"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -157,9 +157,9 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="780dp"
+            android:layout_marginTop="760dp"
             android:backgroundTint="#904D9A"
-            android:text="Button"
+            android:text="Register Now!"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -168,11 +168,11 @@
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="850dp"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="820dp"
             android:text="Already have an account?Click Here!"
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
