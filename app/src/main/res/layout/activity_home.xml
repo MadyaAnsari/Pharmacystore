@@ -21,7 +21,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="15dp"
-        android:text="Hello Madya"
+        android:text="Hello Asma"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
