@@ -85,15 +85,17 @@
         android:layout_height="30dp"
         android:layout_marginTop="310dp"
         android:layout_marginEnd="50dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/discountview"
         android:layout_width="60dp"
-        android:layout_height="30dp"
+        android:layout_height="35dp"
         android:layout_marginTop="350dp"
         android:layout_marginEnd="50dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -103,6 +105,7 @@
         android:layout_height="30dp"
         android:layout_marginTop="390dp"
         android:layout_marginEnd="50dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -112,6 +115,7 @@
         android:layout_height="30dp"
         android:layout_marginTop="430dp"
         android:layout_marginEnd="50dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

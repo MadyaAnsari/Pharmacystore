@@ -51,12 +51,13 @@ public class Totalorder extends AppCompatActivity {
             }
         });
 
+
         calculatetbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                qty =  q.getText().toString();
                int orderc = 0;
-               String discp;
+               int discp;
                int shippingc = 0;
                int total = 0;
                if(med.equals("Crocin")){
@@ -70,6 +71,25 @@ public class Totalorder extends AppCompatActivity {
                }
 
                ov.setText(Integer.toString(orderc));
+               int temp = 0;
+
+               if(orderc<200){
+                   dv.setText("-");
+                   sv.setText("40");
+                   temp = orderc+40;
+                   tv.setText(Integer.toString(temp));
+               } else if (orderc >= 200 && orderc <500){
+                   dv.setText("10%");
+                   sv.setText("20");
+                   temp = (((orderc*90)/100)+20);
+                   tv.setText(Integer.toString(temp));
+               } else if (orderc>=500){
+                   dv.setText("20%");
+                   sv.setText("-");
+                   temp = ((orderc*80)/100);
+                   tv.setText(Integer.toString(temp));
+               }
+
             }
         });
 
