@@ -44,9 +44,9 @@ public class Account extends AppCompatActivity {
         adulong = (TextView) findViewById(R.id.aadulong);
         aduadd = (TextView) findViewById(R.id.aaduadd);
 
-        aduname.setText("Madya");
-        aduemail.setText("Ansarimadya80@gmail.com");
-        aducontact.setText("7303672440");
+        aduname.setText("Asma");
+        aduemail.setText("Ansariasma855@gmail.com");
+        aducontact.setText("9082440920");
 
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
 

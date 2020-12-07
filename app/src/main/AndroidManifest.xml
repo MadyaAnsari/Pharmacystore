@@ -13,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pharmacystore">
-        <activity android:name=".Account"></activity>
+        <activity android:name=".Totalorder"></activity>
+        <activity android:name=".Cart" />
+        <activity android:name=".Painrelief" />
+        <activity android:name=".Account" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

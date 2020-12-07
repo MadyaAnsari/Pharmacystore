@@ -3,4 +3,14 @@
     <string name="map_key" translatable="false">
         AIzaSyAz5UV-C-wBV5ANTBln5zgK6r7RTjZLoEw
     </string>
+
+    <string name="medicine_prompt">Choose a Medicine</string>
+
+    <string-array name="medicine_arrays">
+        <item>Crocin</item>
+        <item>Cetrizine</item>
+        <item>Brufen</item>
+        <item>Saridon</item>
+    </string-array>
+
 </resources>
