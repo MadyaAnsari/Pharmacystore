@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pharmacystore">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -13,7 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pharmacystore">
-        <activity android:name=".Totalorder"></activity>
+        <activity android:name=".designBrochure"></activity>
+        <activity android:name=".Brochure" />
+        <activity android:name=".Totalorder" />
         <activity android:name=".Cart" />
         <activity android:name=".Painrelief" />
         <activity android:name=".Account" />

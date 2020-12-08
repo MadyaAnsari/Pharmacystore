@@ -15,7 +15,7 @@ public class Home extends AppCompatActivity {
     private ImageView imageView11;
     private TextView textView18;
     private ImageView cart_view;
-    private ImageView calculateview;
+    private ImageView calculateview, brochureview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +53,15 @@ public class Home extends AppCompatActivity {
                 openActivity8();
             }
         });
+
+        brochureview = (ImageView) findViewById(R.id.brochureview) ;
+        brochureview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity9();
+            }
+        });
+
 
 
         loc_button = (Button) findViewById(R.id.loc_button);
@@ -93,6 +102,11 @@ public class Home extends AppCompatActivity {
 
     public void openActivity8() {
         Intent intent = new Intent(this, Totalorder.class);
+        startActivity(intent);
+    }
+
+    public void openActivity9() {
+        Intent intent = new Intent(this, Brochure.class);
         startActivity(intent);
     }
 }
